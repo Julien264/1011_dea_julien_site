@@ -41,7 +41,17 @@ html {
     font: normal 600 2.25rem "Kanit", sans-serif;
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
    }
+
+   h3{
+    font: normal 700 1.5rem "Mulish", sans-serif;
+   }
+
+   p{
+    margin: 0;
+   }
+   
 
 
 /* ==========================================================================
@@ -81,6 +91,7 @@ html {
     align-items: center;
     gap: 8px;
     font: normal 400 1.9375rem "Righteous", sans-serif;
+    margin: 0;
    }
 
    .mountain{
@@ -100,11 +111,62 @@ html {
    .hero .contenu{
     color: #FAFFFF;
     background-color: #00132A;
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 216px;
+    padding: 30px;
+    gap: 10px;
    }
 
    .hero .contenu p{
     font: normal 400 1.125rem "Mulish", sans-serif;
    }
+
+   /* Inscription */
+
+   .inscription .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   }
+
+   .inscription{
+    display: flex;
+    justify-content: center;
+    padding: 50px 60px;
+   }
+
+   .inscription p{
+    font: normal 400 1.125rem "Mulish", sans-serif;
+    text-align: center;
+    width: 633px;
+   }
+
+   .inscription button{
+    background-color: #426A7E;
+    color: #FAFFFF;
+    border: none;
+    padding: 10px 30px;
+    font: normal 400 1.125rem "Mulish", sans-serif;
+   }
+
+
+   /* Équipe */
+
+   .carousel{
+    display: flex;
+    gap: 115px;
+   }
+
+   /* Produits */
+
+   .produits p{
+    font: normal 400 1.125rem "Mulish", sans-serif;
+   }
+
 
 
    /* Footer */
@@ -112,3 +174,4 @@ html {
    footer{
     background-color: #34547C;
    }
+   
