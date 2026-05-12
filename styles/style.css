@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Generic
+   ========================================================================== */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ==========================================================================
+   Base   
+    ========================================================================== */
+
+    body{
+        background-color: #FAFFFF;
+        margin: 0;
+        padding: 0;
+    }
+
+
+/* ==========================================================================
+   Mise en page
+   ========================================================================== */
+
+   .wrapper{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+
+/* ==========================================================================
+   Element/typographie
+   ========================================================================== */
+
+   h2{
+    font: normal 600 2.25rem "Kanit", sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+
+
+/* ==========================================================================
+   Components
+   ========================================================================== */
+
+
+
+   /* Header */
+
+   header{
+    background-color: #DCDBE2;
+   }
+   
+
+   .boiteNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+   }
+
+   .boiteNav ul{
+    display: flex;
+    gap: 50px;
+   }
+
+   .boiteNav nav ul li{
+    list-style: none;
+    font: normal 400 1.125rem "Mulish", sans-serif;
+    text-transform: uppercase;
+   }
+
+   .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font: normal 400 1.9375rem "Righteous", sans-serif;
+   }
+
+   .mountain{
+    font-size: 30px;
+   }
+
+   /* Hero */
+
+   .hero{
+    background: url(../images/hero_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+   }
+
+   .hero .contenu{
+    color: #FAFFFF;
+    background-color: #00132A;
+   }
+
+   .hero .contenu p{
+    font: normal 400 1.125rem "Mulish", sans-serif;
+   }
+
+
+   /* Footer */
+
+   footer{
+    background-color: #34547C;
+   }
