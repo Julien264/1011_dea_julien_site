@@ -211,6 +211,26 @@ html {
       text-align: center;
    }
 
+   .navProduits{
+      
+   }
+
+   .cases{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 73px;
+   }
+
+   .cases img{
+      border: solid 1px black;
+   }
+
+   .cases article{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
 
    /* Contact */
 
