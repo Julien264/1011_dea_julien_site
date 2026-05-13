@@ -47,6 +47,7 @@ html {
 
    h3{
     font: normal 700 1.5rem "Mulish", sans-serif;
+    margin: 0;
    }
 
    p{
@@ -153,6 +154,20 @@ html {
 
    /* Équipe */
 
+   .equipe .wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .titreEquipe{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 562px;
+   }
+
    .carousel{
     display: flex;
     gap: 115px;
@@ -163,6 +178,10 @@ html {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+   }
+
+   .carousel h3{
+      margin-top: 32px;
    }
 
    .carousel p{
