@@ -19,6 +19,7 @@ html {
         background-color: #FAFFFF;
         margin: 0;
         padding: 0;
+        font: normal 400 1.125rem "Mulish", sans-serif;
     }
 
 
@@ -119,9 +120,7 @@ html {
     gap: 10px;
    }
 
-   .hero .contenu p{
-    font: normal 400 1.125rem "Mulish", sans-serif;
-   }
+
 
    /* Inscription */
 
@@ -140,7 +139,6 @@ html {
    }
 
    .inscription p{
-    font: normal 400 1.125rem "Mulish", sans-serif;
     text-align: center;
     width: 633px;
    }
@@ -150,7 +148,6 @@ html {
     color: #FAFFFF;
     border: none;
     padding: 10px 30px;
-    font: normal 400 1.125rem "Mulish", sans-serif;
    }
 
 
@@ -159,6 +156,17 @@ html {
    .carousel{
     display: flex;
     gap: 115px;
+   }
+
+   .carousel article{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .carousel p{
+      font: normal 400 1.125rem "Mulish", sans-serif;
    }
 
    /* Produits */
