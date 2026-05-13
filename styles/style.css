@@ -153,6 +153,7 @@ html {
     color: #FAFFFF;
     border: none;
     padding: 10px 30px;
+    text-transform: uppercase;
    }
 
 
@@ -212,7 +213,17 @@ html {
    }
 
    .navProduits{
-      
+      display: flex;
+      gap: 50px;
+   }
+
+   .navProduits button{
+    background-color: #426A7E;
+    color: #FAFFFF;
+    border: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+
    }
 
    .cases{
