@@ -33,6 +33,10 @@ html {
     margin-right: auto;
    }
 
+   section{
+      padding: 50px 60px;
+   }
+
 
 /* ==========================================================================
    Element/typographie
@@ -153,11 +157,13 @@ html {
 
 
    /* Équipe */
+   
 
    .equipe .wrapper{
       display: flex;
       flex-direction: column;
       align-items: center;
+      gap: 22px;
    }
 
    .titreEquipe{
@@ -166,6 +172,7 @@ html {
       flex-direction: column;
       align-items: center;
       width: 562px;
+      gap: 14px;
    }
 
    .carousel{
