@@ -201,6 +201,14 @@ html {
     font: normal 400 1.125rem "Mulish", sans-serif;
    }
 
+   /* Contact */
+
+   .conteneurContact{
+      height: 830px;
+      background-color: #B3C5CB;
+      padding: 50px;
+   }
+
 
 
    /* Footer */
