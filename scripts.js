@@ -1,3 +1,7 @@
+/* ==========================================================================
+   Fenêtre modale
+   ========================================================================== */
+
 const employes = document.querySelectorAll('.employe');
 const modal = document.querySelector('.modal');
 
@@ -25,3 +29,7 @@ function closeModal(event){
     modal.classList.remove("visible");
     modal.removeChild(event.currentTarget);
 }
+
+/* ==========================================================================
+   Produits
+   ========================================================================== */
