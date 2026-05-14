@@ -198,6 +198,10 @@ html {
       margin-top: 32px;
    }
 
+   .employe:hover{
+      cursor: pointer;
+   }
+
 
 
    /* Produits */
@@ -297,4 +301,12 @@ html {
 
    footer a{
       color: #faffff;
+   }
+
+   .modal{
+      display: none;
+   }
+
+   .modal.visible{
+   display: flex;
    }
