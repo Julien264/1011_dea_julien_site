@@ -71,6 +71,8 @@ html {
    header{
     background-color: #DCDBE2;
    }
+
+   
    
 
    .boiteNav{
@@ -93,6 +95,7 @@ html {
 
    .boiteNav a{
       text-decoration: none;
+      color: #000;
    }
 
    .logo{
@@ -270,5 +273,6 @@ html {
 
    footer{
     background-color: #34547C;
+    color: #FAFFFF;
    }
    
