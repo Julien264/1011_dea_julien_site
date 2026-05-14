@@ -307,7 +307,7 @@ html {
       display: grid;
       grid-template-columns: 1fr 1fr;
    }
-   
+
 
    /* Modal */
 
@@ -330,3 +330,28 @@ html {
 
 
    /* ===================================================== FICHE PRODUIT ====================================================== */
+
+   .descriptionProduit .wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 492px;
+   }
+
+   .carouselProduits{
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .carouselProduits article{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+   }
+
+   .carouselProduits img{
+      border: solid 1px black;
+   }
+
