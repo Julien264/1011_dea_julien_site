@@ -91,6 +91,10 @@ html {
     text-transform: uppercase;
    }
 
+   .boiteNav a{
+      text-decoration: none;
+   }
+
    .logo{
     display: flex;
     justify-content: center;
@@ -200,6 +204,7 @@ html {
       display: flex;
       flex-direction: column;
       align-items: center;
+      gap: 45px;
    }
 
    .titreProduits{
@@ -240,6 +245,14 @@ html {
       display: flex;
       flex-direction: column;
       align-items: center;
+   }
+
+      .produits .wrapper button{
+      background-color: #426A7E;
+      color: #FAFFFF;
+      border: none;
+      padding: 10px 30px;
+      text-transform: uppercase;
    }
 
 
