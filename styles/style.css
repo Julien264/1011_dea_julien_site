@@ -459,6 +459,15 @@ html {
 
 .titrePagesProduits{
    text-align: center;
+   padding: 222px 0 248px 0;
+}
+
+.vedette{
+   padding-bottom: 96.5px;
+}
+
+.liste{
+padding-top: 96.5px;
 }
 
 .colonneVedette{
@@ -472,3 +481,4 @@ html {
    gap: 53px;
    justify-content: center;
 }
+
