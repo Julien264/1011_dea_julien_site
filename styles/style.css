@@ -42,6 +42,10 @@ html {
    Element/typographie
    ========================================================================== */
 
+   h1{
+      font: normal 400 2.125rem "Righteous", sans-serif;
+   }
+
    h2{
     font: normal 600 2.25rem "Kanit", sans-serif;
     margin: 0;
@@ -361,3 +365,8 @@ html {
       border: solid 1px black;
    }
 
+   /* ===================================================== TOUT LES PRODUITS ====================================================== */
+
+.titrePagesProduits{
+   text-align: center;
+}
