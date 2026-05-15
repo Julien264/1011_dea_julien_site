@@ -299,7 +299,7 @@ html {
       align-items: center;
    }
 
-      .produits .wrapper button{
+   .produits .wrapper button{
       background-color: #426A7E;
       color: #FAFFFF;
       border: none;
@@ -385,12 +385,34 @@ html {
 
    /* ===================================================== FICHE PRODUIT ====================================================== */
 
+   .imgPrincipale{
+      padding-top: 186px;
+   }
+
    .descriptionProduit .wrapper{
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
       width: 492px;
+   }
+
+   .btnProduit .wrapper{
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .btnProduit button{
+      background-color: #426A7E;
+      color: #FAFFFF;
+      border: none;
+      padding: 20px 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+   }
+
+   .btnProduit button:hover{
+      background-color: #083559;
    }
 
    .carouselProduits{
