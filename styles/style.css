@@ -285,12 +285,11 @@ html {
    }
 
    .cases img{
-      border: solid 1px black;
+      border: solid 9px white;
 
    }
 
-      .cases img:hover{
-      
+   .cases img:hover{
       border: solid 9px black;
    }
 
@@ -406,8 +405,18 @@ html {
       gap: 28px;
    }
 
+   .produitsSimilaire{
+      text-align: center;
+   }
+
+   .produitsSimilaire .wrapper{
+      display: flex;
+      flex-direction: column;
+      gap: 65px;
+   }
+
    .carouselProduits img{
-      border: solid 1px black;
+      border: solid 9px none;
    }
 
    /* ===================================================== TOUT LES PRODUITS ====================================================== */
