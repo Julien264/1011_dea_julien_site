@@ -120,11 +120,11 @@ html {
    /* Footer */
 
    footer{
-    background-color: #34547C;
-    color: #FAFFFF;
-    height: 124px;
-   display: flex;
-    align-items: center;
+      background-color: #34547C;
+      color: #FAFFFF;
+      height: 124px;
+      display: flex;
+      align-items: center;
    }
    
    footer .wrapper{
@@ -307,6 +307,13 @@ html {
 
    /* Contact */
 
+   .wrapper .conteneurContact{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+   }
+
    .conteneurContact{
       height: 830px;
       background-color: #B3C5CB;
@@ -316,6 +323,35 @@ html {
    .colonnes{
       display: grid;
       grid-template-columns: 1fr 1fr;
+   }
+
+   .colonne2{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+   }
+
+   .adresse{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+   }
+
+   .colonne2 h3{
+      width: 372px;
+   }
+
+   .nav-social{
+      display: flex;
+      gap: 10px;
+   }
+
+   .courriel{
+      background: none;
+      text-transform: uppercase;
+      padding: 15px 40px;
+      font: normal 400 1.5rem "Mulish", sans-serif;
    }
 
 
