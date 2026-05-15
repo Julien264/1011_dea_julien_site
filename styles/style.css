@@ -278,6 +278,12 @@ html {
 
    .cases img{
       border: solid 1px black;
+
+   }
+
+      .cases img:hover{
+      
+      border: solid 9px black;
    }
 
    .cases article{
