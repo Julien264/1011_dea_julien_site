@@ -263,6 +263,7 @@ html {
    .navProduits{
       display: flex;
       gap: 50px;
+      padding-right: 610px;
    }
 
    .navProduits button{
