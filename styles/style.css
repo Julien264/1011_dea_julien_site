@@ -415,3 +415,15 @@ html {
 .titrePagesProduits{
    text-align: center;
 }
+
+.colonneVedette{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.texteVedette{
+   display: flex;
+   flex-direction: column;
+   gap: 53px;
+   justify-content: center;
+}
