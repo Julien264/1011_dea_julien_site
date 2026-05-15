@@ -272,7 +272,10 @@ html {
     border: none;
     padding: 5px 10px;
     text-transform: uppercase;
+   }
 
+   .navProduits button:hover{
+      background-color: #083559;
    }
 
    .cases{
@@ -303,7 +306,12 @@ html {
       border: none;
       padding: 10px 30px;
       text-transform: uppercase;
+      cursor: pointer;
    }
+
+      .produits .wrapper button:hover{
+         background-color: #083559;
+      }
 
 
    /* Contact */
