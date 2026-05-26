@@ -310,7 +310,7 @@ html {
       align-items: center;
    }
 
-   .produits .wrapper button{
+   .ctaProduits{
       background-color: #426A7E;
       color: #FAFFFF;
       border: none;
@@ -319,7 +319,7 @@ html {
       cursor: pointer;
    }
 
-      .produits .wrapper button:hover{
+      .ctaProduits:hover{
          background-color: #083559;
       }
 
@@ -371,6 +371,9 @@ html {
       text-transform: uppercase;
       padding: 15px 40px;
       font: normal 400 1.5rem "Mulish", sans-serif;
+      text-decoration: none;
+      border: 1px solid black;
+      color: #000;
    }
 
 
@@ -413,16 +416,16 @@ html {
       justify-content: space-between;
    }
 
-   .btnProduit button{
+   .btnProduit a{
       background-color: #426A7E;
       color: #FAFFFF;
       border: none;
       padding: 20px 20px;
       text-transform: uppercase;
-      cursor: pointer;
+      text-decoration: none;
    }
 
-   .btnProduit button:hover{
+   .btnProduit a:hover{
       background-color: #083559;
    }
 
@@ -438,7 +441,7 @@ html {
       gap: 28px;
    }
 
-   .carouselProduits button{
+   .carouselProduits a{
       font: normal 400 1.125rem "Mulish", sans-serif;
       background-color: #426A7E;
       color: #FAFFFF;
@@ -446,9 +449,10 @@ html {
       padding: 10px 10px;
       text-transform: uppercase;
       cursor: pointer;
+      text-decoration: none;
    }
 
-   .carouselProduits button:hover{
+   .carouselProduits a:hover{
       background-color: #083559;
    }
 
