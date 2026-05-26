@@ -34,7 +34,7 @@ html {
    }
 
    section{
-      padding: 50px 60px;
+      padding: 50px 0;
    }
 
 
@@ -116,7 +116,7 @@ html {
    }
 
    .mountain{
-    font-size: 30px;
+    font-size: 1.875rem;
    }
    
 
@@ -211,6 +211,10 @@ html {
     text-transform: uppercase;
    }
 
+   .inscription button:hover{
+      background-color: #083559; 
+   }
+
 
    /* Équipe */
    
@@ -276,6 +280,7 @@ html {
       display: flex;
       gap: 50px;
       width: 100%;
+      padding-left: 9px;
    }
 
    .navProduits a{
@@ -295,6 +300,7 @@ html {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       gap: 73px;
+      max-width: 100%;
    }
 
    .card{
@@ -305,7 +311,6 @@ html {
 
    .card:hover{
       border: solid 9px black;
-
    }
 
    .card:hover .cardContent{
@@ -326,10 +331,13 @@ html {
       position: relative;
    }
 
-   .cartes .hover{
+   .card .hover span{
       display: flex;
       justify-content: center;
       align-items: center;
+      align-self: center;
+      font-size: 5.0625rem;
+      color: #faffff;
    }
 
    .hover{
@@ -352,7 +360,6 @@ html {
 
    .card:hover .hover{
       opacity: 1;
-      display: block;
    }
 
    .ctaProduits{
