@@ -80,6 +80,7 @@ html {
     background-color: #DCDBE2;
     position: fixed;
     width: 100%;
+    z-index: 999;
    }
 
    .boiteNav{
@@ -274,18 +275,19 @@ html {
    .navProduits{
       display: flex;
       gap: 50px;
-      padding-right: 610px;
+      width: 100%;
    }
 
-   .navProduits button{
+   .navProduits a{
     background-color: #426A7E;
     color: #FAFFFF;
     border: none;
     padding: 5px 10px;
     text-transform: uppercase;
+    font-size: 0.75rem;
    }
 
-   .navProduits button:hover{
+   .navProduits a:hover{
       background-color: #083559;
    }
 
@@ -295,19 +297,62 @@ html {
       gap: 73px;
    }
 
-   .cases img{
+   .card{
       border: solid 9px white;
+      z-index: 10;
+      position: relative;
+   }
+
+   .card:hover{
+      border: solid 9px black;
 
    }
 
-   .cases img:hover{
-      border: solid 9px black;
+   .card:hover .cardContent{
+      opacity: 1;
+
    }
 
    .cases article{
       display: flex;
       flex-direction: column;
       align-items: center;
+   }
+
+
+
+   .cartes img{
+      display: block;
+      position: relative;
+   }
+
+   .cartes .hover{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .hover{
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(52, 52, 52, 0.5);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+
+      transition: all 0.4s ease-out;
+      z-index: 999;
+   }
+
+
+   .card:hover .hover{
+      opacity: 1;
+      display: block;
    }
 
    .ctaProduits{
@@ -319,9 +364,9 @@ html {
       text-decoration: none;
    }
 
-      .ctaProduits:hover{
-         background-color: #083559;
-      }
+   .ctaProduits:hover{
+      background-color: #083559;
+   }
 
 
    /* Contact */
